@@ -51,8 +51,9 @@ header nav ul li img {
   padding-right: 5px;
 }
 
-h1 img {
-  width:100px;
+.logo {
+  width:140px;
+  height:120px;
   display: block;
   margin: 10px auto;
 }
@@ -70,4 +71,20 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+
+/* SVG*/
+
+  .body{fill:#52595F;}
+  .nose_and_eyes{fill:#2D3339;}
+  .brows{fill:#DA8058;}
+  .white{fill:#FBFEFF;}
+
+@media(min-width: 425px){
+
+  h1 {
+    display: none;
+  }
+
 }
