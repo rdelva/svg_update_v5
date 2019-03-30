@@ -73,13 +73,37 @@ footer {
   color: #ba8058;
 }
 
+.clearfix::after {
+
+  content:"";
+  display: table;
+  clear:both;
+} 
+
 
 /* SVG*/
-
-  .body{fill:#52595F;}
+  ,body {fill:#52595F;}
   .nose_and_eyes{fill:#2D3339;}
   .brows{fill:#DA8058;}
   .white{fill:#FBFEFF;}
+
+
+.corgiType{
+  display: inline-block;
+  width: 150px;
+  margin:10px;
+}
+
+.corgiType svg {
+  width: 150px;
+}
+
+.corgiType span {
+  display:inline-block;
+  text-align: center;
+  color: #bb825f    ;
+  width: 100%;
+}
 
 @media(min-width: 425px){
 
