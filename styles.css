@@ -125,13 +125,29 @@ footer {
   .brows{fill:#DA8058;}
   .white{fill:#FBFEFF;}
 
-/*
-.corgiType{
-  display: inline-block;
-  width: 150px;
-  margin:10px;
-}*/
+.corgiBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.corgiType {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.corgiType svg {
+  width: 150px;
+}
+
+.corgiType span {
+ 
+  color: #bb825f;
+ 
+}
 
 
 
