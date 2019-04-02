@@ -1,162 +1,165 @@
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 300;
-  color: #111;
-  background: #edeff0 url('svgs/background.svg');
-}
+  body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #111;
+    background: #edeff0 url('svgs/background.svg');
+  }
 
-#container {
-  max-width: 960px;
-  background: #fff;
-  margin: 0 auto;
-  height: 100%; /* new line */ 
-}
+  #container {
+    max-width: 960px;
+    background: #fff;
+    margin: 0 auto;
+    height: 100%; /* new line */ 
+  }
 
-p {
-  max-width: 350px;
-  margin: 35px auto 0;
-  line-height: 2em;
-  text-align: left;
-}
+  p {
+    max-width: 350px;
+    margin: 35px auto 0;
+    line-height: 2em;
+    text-align: left;
+  }
 
-#nav-heart {
-  fill: #39add1;
-  transition: fill, transform;
-  transition-duration:  .5s;
-  width: 15px;
-}
+  #nav-heart,
+  #nav-location,
+  #nav-contact
+   {
+    fill: #39add1;
+    transition: fill, transform;
+    transition-duration:  .5s;
+    width: 15px;
+  }
 
-#nav-heart:hover  {
- fill:#111;
- transform: rotate(-25deg) scale(1.5);
-
-}
-
-a {
-  text-decoration: none;
-  color: #39add1;
-  font-weight: 700;
-  transition-property: color;
-  transition-duration: .5s;
-  transition-timing-function: ease-in-out;
-}
-
-a:hover{
-   color: #111;
-   transition-property:  transform;
-  transition-duration: 1s;
-  transform: scale(1.3);
-  
-}
-
-header {
-  padding-top: 10px;
-}
-
-header nav {
-  padding-bottom: 50px;
-  text-align: left;
-}
-
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-header nav ul li img {
-  width: 15px;
-  padding-right: 5px;
-}
-
-.logo {
-  width:140px;
-  height:120px;
-  display: block;
-  margin: 10px auto;
-}
-
-
-.logoText {
-
-    display: none;
-
-}
-
-.st0 {
-  fill:#BA8058;
-}
-.st1 {
-  fill:#EAAA7F;
-}
-.st2 {
-  fill:#F4C6A6;
-}
-
-main {
-  padding-top: 50px;
-
-}
-
-main h2 {
-  font-size: 28px;
-}
-
-footer {
-  width: 100%;
-  margin-top: 100px;
-  padding-bottom: 30px;
-  color: #ba8058;
-}
-
-.clearfix::after {
-
-  content:"";
-  display: table;
-  clear:both;
-} 
-
-
-/* SVG*/
-  
-  .nose_and_eyes{fill:#2D3339;}
-  .brows{fill:#DA8058;}
-  .white{fill:#FBFEFF;}
-
-.corgiBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.corgiType {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.corgiType svg {
-  width: 150px;
-}
-
-.corgiType span {
- 
-  color: #bb825f;
- 
-}
-
-
-
-@media(min-width: 425px){
-
-  .logoText {
-
-    display: block;
+  #nav-heart:hover,
+  #nav-location:hover,
+  #nav-contact:hover  {
+   fill:#111;
+   transform: rotate(-25deg) scale(1.5);
 
   }
 
-}
+  a {
+    text-decoration: none;
+    color: #39add1;
+    font-weight: 700;
+    transition-property: color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+  }
+
+  a:hover{
+     color: #111;
+     transition-property:  transform;
+    transition-duration: 1s;
+    transform: scale(1.3);
+    
+  }
+
+  header {
+    padding-top: 10px;
+  }
+
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li img {
+    width: 15px;
+    padding-right: 5px;
+  }
+
+  .logo {
+    width:140px;
+    height:120px;
+    display: block;
+    margin: 10px auto;
+  }
+
+
+  .logoText {
+    display: none;
+  }
+
+  .st0 {
+    fill:#BA8058;
+  }
+  .st1 {
+    fill:#EAAA7F;
+  }
+  .st2 {
+    fill:#F4C6A6;
+  }
+
+  main {
+    padding-top: 50px;
+
+  }
+
+  main h2 {
+    font-size: 28px;
+  }
+
+  footer {
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    color: #ba8058;
+  }
+
+  .clearfix::after {
+
+    content:"";
+    display: table;
+    clear:both;
+  } 
+
+
+  /* SVG*/
+    
+    .nose_and_eyes{fill:#2D3339;}
+    .brows{fill:#DA8058;}
+    .white{fill:#FBFEFF;}
+
+  .corgiBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .corgiType {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .corgiType svg {
+    width: 150px;
+  }
+
+  .corgiType span {
+   
+    color: #bb825f;
+   
+  }
+
+
+
+  @media(min-width: 425px){
+
+    .logoText {
+
+      display: block;
+
+    }
+
+  }
