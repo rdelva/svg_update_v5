@@ -24,14 +24,14 @@ p {
 
 #nav-heart {
   fill: #39add1;
-  transition-property: fill transform;
+  transition: fill, transform;
   transition-duration:  .5s;
   width: 15px;
 }
 
 #nav-heart:hover  {
  fill:#111;
- transform: rotate(-25deg);
+ transform: rotate(-25deg) scale(1.5);
 
 }
 
@@ -39,7 +39,7 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  transition-property: color ;
+  transition-property: color;
   transition-duration: .5s;
   transition-timing-function: ease-in-out;
 }
@@ -138,7 +138,7 @@ footer {
 .corgiType span {
   display:inline-block;
   text-align: center;
-  color: #bb825f    ;
+  color: #bb825f;
   width: 100%;
 }
 
