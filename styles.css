@@ -88,6 +88,9 @@
     display: none;
   }
 
+
+
+
   .st0 {
     fill:#BA8058;
   }
@@ -161,5 +164,9 @@
       display: block;
 
     }
+
+     .logoTitle {
+      display: none;
+     } 
 
   }
