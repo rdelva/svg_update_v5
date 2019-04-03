@@ -126,7 +126,7 @@
 
 
   /* SVG*/
-    
+    .body{fill:currentColor;}
     .nose_and_eyes{fill:#2D3339;}
     .brows{fill:#DA8058;}
     .white{fill:#FBFEFF;}
@@ -145,13 +145,34 @@
   }
 
 
+ .sable {
+    color:#b97f5b;
+    fill: currentColor;
+   
+}
+
+.fawn {
+  color: #e9aa82; 
+  fill: currentColor;
+}
+
+.red {
+  color: #834b29;
+  fill: currentColor;
+
+}
+
+.stone {
+  color: #52595F;
+}
+
   .corgiType svg {
     width: 150px;
   }
 
   .corgiType span {
    
-    color: #bb825f;
+    color: currentColor;
    
   }
 
