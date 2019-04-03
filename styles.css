@@ -32,30 +32,32 @@
     width: 15px;
   }
 
-  #nav-heart:hover,
-  #nav-location:hover,
-  #nav-contact:hover  {
-   fill:#111;
-   transform: rotate(-25deg) scale(1.5);
 
-  }
 
   a {
     text-decoration: none;
     color: #39add1;
     font-weight: 700;
-    transition-property: color;
+    transition-property: color, fill;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;
   }
 
-  a:hover{
-     color: #111;
-     transition-property:  transform;
+  a:hover #nav-heart,
+  a:hover #nav-location,
+  a:hover #nav-contact{
+    color: #111;
+    fill: currentColor;
+    transition-property:  transform;
     transition-duration: 1s;
-    transform: scale(1.3);
+    transform: scale(1.5) rotate(-25deg);
     
   }
+
+  a:hover {
+        color: #111;
+  }
+
 
   header {
     padding-top: 10px;
@@ -131,21 +133,21 @@
     .brows{fill:#DA8058;}
     .white{fill:#FBFEFF;}
 
-  .corgiBox {
+.corgiBox {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .corgiType {
+.corgiType {
     padding: 10px;
     display: flex;
     flex-direction: column;
   }
 
 
- .sable {
+.sable {
     color:#b97f5b;
     fill: currentColor;
    
@@ -166,15 +168,15 @@
   color: #52595F;
 }
 
-  .corgiType svg {
+.corgiType svg {
     width: 150px;
-  }
+}
 
-  .corgiType span {
+.corgiType span {
    
     color: currentColor;
    
-  }
+}
 
 
 
