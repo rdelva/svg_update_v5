@@ -178,15 +178,24 @@
    
 }
 
+.logo {
+  transition-property: transform;
+  transition-duration: .5s;
+}
 
+
+.logo:hover {
+  transform: rotate(-360deg) scale(1.5);
+}
 
   @media(min-width: 425px){
 
     .logoText {
 
       display: block;
-
+      
     }
+
 
      .logoTitle {
       display: none;
